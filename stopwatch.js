@@ -8,7 +8,7 @@ window.onload = function () {
     var buttonReset = document.getElementById("button-reset");
     var Interval ;
 
-    buttonStart.onClick = function() {
+    buttonStart.onclick = function() {
 
         clearInterval(Interval);
         Interval = setInterval(startTimer, 10);
